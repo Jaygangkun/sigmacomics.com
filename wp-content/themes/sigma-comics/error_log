@@ -1,0 +1,8 @@
+[17-Aug-2021 16:47:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/elbombero/public_html/wp-content/themes/sigma-comics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/elbombero/public_html/wp-content/themes/sigma-comics/index.php on line 17
+[17-Aug-2021 16:51:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/elbombero/public_html/wp-content/themes/sigma-comics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/elbombero/public_html/wp-content/themes/sigma-comics/index.php on line 17

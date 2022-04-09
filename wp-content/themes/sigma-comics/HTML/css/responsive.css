@@ -1,0 +1,81 @@
+/*=========== Menu Responsive Style Start ===========*/
+@media only screen and (min-width: 992px) {
+.hmbrgr_icon{ display: none; }
+
+.navbar .collapse ul li:hover> ul{ display:block; }
+.navbar .collapse ul ul{ position:absolute; top:100%; left:0; min-width:250px; display:none; }
+/*******/
+.navbar .collapse ul ul li{ position:relative; }
+.navbar .collapse ul ul li:hover> ul{ display:block; }
+.navbar .collapse ul ul ul{ position:absolute; top:0; left:100%; display:none; }
+/*******/
+.navbar .collapse ul ul ul li{ position:relative; }
+.navbar .collapse ul ul ul li:hover ul{ display:block; }
+.navbar .collapse ul ul ul ul{ position:absolute; top:0; left:-100%; min-width:250px; display:none; z-index:1; }
+}
+
+
+@media only screen and (max-width: 991px) {
+.logo_clmn{ flex: 35%; max-width: 35%; }
+.sign_in_clmn{ order: inherit; flex: 40%; max-width: 40%; }
+.hmbrgr_icon{ flex: 25%; max-width: 25%; }
+.mnu_clmn{ flex: 100%; max-width: 100%; }
+.sign_in_btn{ text-align: right; padding-top: 0; }
+
+.mnu_clmn{ position: absolute; width: 100%; left: 0; top: 100%; background-color: rgba(0, 0, 0, 0.9); z-index: 2; }
+.mnu_clmn.show_menu{ padding: 15px; }
+
+.hdr_menu{ float: none; padding: 0; font-size: 16px !important; }
+.navbar-nav{ float: none; }
+.navbar-nav li, .dropdown-menu li{ text-align: left; border-bottom: 1px solid #6f6f6f; }
+.navbar-nav li:last-child, .dropdown-menu li:last-child{ border-bottom: none; }
+.navbar-nav li a{ border: none; display: inline-block; width: 100%; }
+.navbar-nav li a:hover, .navbar-nav li.active a{ color: #de902f; }
+.dropdown-menu{ padding-top: 0; margin-left: 20px; }
+.dropdown_menu_style::before{ display: none; }
+.dropdown_menu_style{ box-shadow: none; }
+.dropdown-menu li{ background-color: transparent; font-size: 14px !important; }
+.dropdown-menu li a{ padding: 6px 10px 6px 10px !important; color: #ffffff; }
+.navbar-toggler{ padding: 7px; }
+}
+/*=========== Menu Responsive Style End ===========*/
+
+/*=========================== Responsive Style Sheet Start Here ===========================*/
+@media only screen and (min-width:1600px){
+
+}
+
+@media only screen and (max-width:1365px){
+
+}
+
+@media only screen and (max-width:1199px){
+
+}
+
+
+@media only screen and (max-width:991px){
+
+}
+
+
+@media only screen and (max-width:767px){
+
+}
+
+
+@media only screen and (max-width:575px){
+
+}
+
+
+
+@media only screen and (max-width:479px){
+
+}
+
+
+@media only screen and (max-width:429px){
+
+}
+/*=========================== Responsive Style Sheet End Here ===========================*/
