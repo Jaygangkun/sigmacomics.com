@@ -1,0 +1,31 @@
+[17-Aug-2021 06:58:14 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 121
+[17-Aug-2021 06:58:38 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 121
+[20-Aug-2021 08:12:53 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 121
+[20-Aug-2021 08:13:07 America/Chicago] PHP Warning:  A non-numeric value encountered in /home4/elbombero/public_html/inc/functions.php on line 117
+[04-Sep-2021 21:50:25 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 186
+[07-Sep-2021 10:56:23 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 186
+[07-Sep-2021 11:02:05 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 186
+[07-Sep-2021 11:02:43 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 189
+[07-Sep-2021 11:02:47 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 189
+[07-Sep-2021 11:03:29 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 189
+[07-Sep-2021 11:04:36 America/Chicago] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home4/elbombero/public_html/inc/functions.php on line 190
+[31-Mar-2022 19:48:58 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[31-Mar-2022 19:48:58 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[01-Apr-2022 19:50:24 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[01-Apr-2022 19:50:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[02-Apr-2022 05:54:41 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[02-Apr-2022 05:54:41 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[02-Apr-2022 19:52:18 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[02-Apr-2022 19:52:18 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[03-Apr-2022 11:41:56 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[03-Apr-2022 11:41:56 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[06-Apr-2022 19:57:27 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[06-Apr-2022 19:57:27 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[06-Apr-2022 19:57:27 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[06-Apr-2022 19:57:27 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[09-Apr-2022 19:55:01 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[09-Apr-2022 19:55:01 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[10-Apr-2022 19:49:34 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[10-Apr-2022 19:49:34 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
+[11-Apr-2022 19:48:46 America/Chicago] PHP Warning:  require_once(././inc/functions.php): failed to open stream: No such file or directory in /home4/elbombero/public_html/german/login.php on line 8
+[11-Apr-2022 19:48:46 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '././inc/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/elbombero/public_html/german/login.php on line 8
