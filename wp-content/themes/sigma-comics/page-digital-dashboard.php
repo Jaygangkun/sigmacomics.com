@@ -3,8 +3,8 @@ get_header();
 require_once("wp-url.php");
 
 if(!isset($_SESSION['user']) && $_SESSION['user']== ''){
-	header( 'Location:'. constant("SITEURL").'/digital-dashboard-login');
-	exit();
+	// header( 'Location:'. constant("SITEURL").'/digital-dashboard-login');
+	// exit();
 }
 
 

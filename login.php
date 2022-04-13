@@ -7,7 +7,7 @@ $msg = array();
 //require_once("./include/language_redirect.php");
 
 if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location: digital-dashboard');
+	// header( 'Location: digital-dashboard');
 }
 
 // Get our helper functions
@@ -24,7 +24,7 @@ $query = array(
 if(isset($_REQUEST['login_next'])){
 	$user_email = $_REQUEST['user_email'];
 	$_SESSION['user_email_login2'] = $user_email;
-	header('Location: login2');
+	header('Location: login2.php');
 	exit();
 }
 

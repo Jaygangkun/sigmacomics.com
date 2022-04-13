@@ -10,7 +10,7 @@ require_once("inc/connections.php");
 ?>
 
 <?php if( isset($_SESSION['user'])){   
-	header( 'Location: digital-dashboard/');							
+	header( 'Location: digital-dashboard');							
  } ?>
 
 <!DOCTYPE html>
@@ -52,8 +52,8 @@ require_once("inc/connections.php");
 		<div class="container">
 			<div class="createbody">
 				<h2>To order digital issues,</h2>
-				<h2><a href="<?php echo constant("SITEURL")?>/login"><button>Login</button></a> To your account</h2>
-				<h2>or <a href="<?php echo constant("SITEURL")?>/signup">create a new account</a></h2>
+				<h2><a href="<?php echo constant("SITEURL")?>/login.php"><button>Login</button></a> To your account</h2>
+				<h2>or <a href="<?php echo constant("SITEURL")?>/signup.php">create a new account</a></h2>
 				<div class="mid-img">
 					<img src="images/buy-digital-issues.jpg" />
 				</div>

@@ -65,7 +65,7 @@ if ($resultMenuAll = $conn->query($sqlMenu)) {
 							<!--<div class="hdr-login"><a href="<?php //echo constant("SITEURL")."/digital-dashboard";?> ">Hello.. User</a></div>-->
 							<div class="hdr-login"><a href="<?php echo constant("SITEURL")."/logout.php";?> ">Logout</a></div>
 						<?php }else{ ?> 
-							<div class="hdr-login"><a href="<?php echo constant("SITEURL")."/login";?>">Login</a></div>
+							<div class="hdr-login"><a href="<?php echo constant("SITEURL")."/login.php";?>">Login</a></div>
 						<?php } ?>
 						<?php 
 						

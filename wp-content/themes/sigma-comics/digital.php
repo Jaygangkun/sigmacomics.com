@@ -15,9 +15,9 @@ $countryCurrencyJs = (isset($countryCurrency->geoplugin_currencySymbol_UTF8))?$c
 		
 		<div class="container">
 <div class="createbody">
-<h2>to order digital issues, <a href="https://sigmacomics.com/signup">create a new account.</a></h2>
+<h2>to order digital issues, <a href="https://sigmacomics.com/signup.php">create a new account.</a></h2>
 <br>
-<h2>to view your digital issue(s), <a href="https://sigmacomics.com/login"><button>Login</button></a> to your account.</h2>
+<h2>to view your digital issue(s), <a href="https://sigmacomics.com/login.php"><button>Login</button></a> to your account.</h2>
 <div class="mid-img">
 <img src="https://sigmacomics.com/wp-content/uploads/2021/01/buy-digital-issues.jpg">
 				</div>

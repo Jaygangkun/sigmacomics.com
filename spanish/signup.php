@@ -14,8 +14,8 @@ $query = array(
 );
 
 if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard-2');
-	exit();
+	// header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard-2');
+	// exit();
 }
 
 if(isset($_REQUEST['signup_next'])){

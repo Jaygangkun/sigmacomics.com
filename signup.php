@@ -15,14 +15,14 @@ $query = array(
 /*if(!isset($_SESSION['user_email_login2']) && $_SESSION['user_email_login2']== ''){
 	header( 'Location: login');
 }else*/ if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location: digital-dashboard');
+	// header( 'Location: digital-dashboard');
 }
 
 if(isset($_REQUEST['signup_next'])){
 	$user_email = $_REQUEST['user_email'];
 	$_SESSION['user_email'] = $user_email;
 
-	header('Location: thank-you-digital2');
+	header('Location: thank-you-digital2.php');
 	exit();
 }
 
@@ -32,7 +32,7 @@ if(isset($_REQUEST['login_next'])){
 	$user_email = $_REQUEST['user_email'];
 	$_SESSION['user_email_login2'] = $user_email;
 
-	header('Location: login2');
+	header('Location: login2.php');
 	exit();
 }
 

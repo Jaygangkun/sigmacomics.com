@@ -14,8 +14,8 @@ require_once("././inc/connections.php");
 }else*/ 
 
 if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard-2');
-	exit();
+	// header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard-2');
+	// exit();
 }
 
 
@@ -57,8 +57,8 @@ if(isset($_REQUEST['login_next'])){
 				unset($_SESSION['user_email_login2']);
 
 				if (isset($_SESSION['add_to_cart_session_id']) && $_SESSION['add_to_cart_session_id'] != '' ){
-					header( 'Location:'.constant('SITEURL_SPANISH').'/cart');
-				}else{
+				// 	header( 'Location:'.constant('SITEURL_SPANISH').'/cart');
+				// }else{
 					header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard-2');
 				}
 				exit();

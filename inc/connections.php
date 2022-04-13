@@ -94,4 +94,3 @@ if($action == 'local'){
   define("BASEURL",'');
 }
 ?>
-

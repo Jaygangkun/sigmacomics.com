@@ -14,8 +14,8 @@ $query = array(
 );
 
 if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location:'.constant('SITEURL_JAPANESE').'/digital-dashboard-5');
-	exit();
+	// header( 'Location:'.constant('SITEURL_JAPANESE').'/digital-dashboard-5');
+	// exit();
 }
 
 if(isset($_REQUEST['signup_next'])){

@@ -5,9 +5,9 @@ $msg = array();
 
 
 if(!isset($_SESSION['user_email_login2']) && $_SESSION['user_email_login2']== ''){
-	header( 'Location: login');
+	header( 'Location: login.php');
 }else if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location: digital-dashboard');
+	// header( 'Location: digital-dashboard');
 }
 // Get our helper functions
 require_once("inc/functions.php");
@@ -50,19 +50,19 @@ if(isset($_REQUEST['login_next'])){
 				unset($_SESSION['user_email_login2']);
 
 				if (isset($_SESSION['add_to_cart_session_id']) && $_SESSION['add_to_cart_session_id'] != '' ){
-					header('Location: cart');
-				}else{
+				// 	header('Location: cart');
+				// }else{
 					header('Location: digital-dashboard');
 				}
 				exit();
 			}else{
 				$_SESSION['message'] = $content[51];
-				header('Location: login');
+				header('Location: login.php');
 		  		exit();
 			}
 		  } else {
 			$_SESSION['message'] =  "Error: " . $sql . "<br>" . $conn->error;
-			header('Location: login');
+			header('Location: login.php');
 		  	exit();
 		  }
 	}

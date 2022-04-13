@@ -4,7 +4,7 @@ session_start();
 $msg = array();
 
 if( (!isset($_SESSION['user_email']) && $_SESSION['user_email']== '') ){
-	header( 'Location: signup');
+	header( 'Location: signup.php');
 	exit();
 }
 // Get our helper functions
@@ -71,13 +71,13 @@ if(isset($_REQUEST['signup_next'])){
 					}
 					
 
-					header('Location: signup');
+					header('Location: signup.php');
 					exit();
 
 					
 				}else{
 					$_SESSION['message'] = 'Email Already Exist!';
-					header('Location: signup');
+					header('Location: signup.php');
 					exit();
 				}
 			}

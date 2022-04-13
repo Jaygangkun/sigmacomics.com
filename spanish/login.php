@@ -9,7 +9,7 @@ require_once("././inc/functions.php");
 require_once("././inc/connections.php");
 
 if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
-	header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard');
+	// header( 'Location:'.constant('SITEURL_SPANISH').'/digital-dashboard');
 }
 
 
