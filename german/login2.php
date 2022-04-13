@@ -60,8 +60,9 @@ if(isset($_REQUEST['login_next'])){
 				if (isset($_SESSION['add_to_cart_session_id']) && $_SESSION['add_to_cart_session_id'] != '' ){
 				// 	header( 'Location:'.constant('SITEURL_GERMAN').'/cart');
 				// }else{
-					header( 'Location:'.constant('SITEURL_GERMAN').'/digital-dashboard-4');
+					
 				}
+				header( 'Location:'.constant('SITEURL_GERMAN').'/digital-dashboard-4');
 				exit();
 			}else{
 				$_SESSION['message'] = $content[51];

@@ -2,10 +2,8 @@
 ob_start();
 session_start();
 $msg = array();
-
-
 if(!isset($_SESSION['user_email_login2']) && $_SESSION['user_email_login2']== ''){
-	header( 'Location: login.php');
+	header( 'Location: login.php');exit();
 }else if(isset($_SESSION['user']) && $_SESSION['user']['id']!= ''){
 	// header( 'Location: digital-dashboard');
 }
@@ -33,7 +31,6 @@ $token = "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";
 $query = array(
 	"Content-type" => "application/json" // Tell Shopify that we're expecting a response in JSON format
 );
-
 if(isset($_REQUEST['login_next'])){
 
 	$user_password = md5($_REQUEST['user_password']);
@@ -48,12 +45,12 @@ if(isset($_REQUEST['login_next'])){
 			if($row == 1 ){
 				$_SESSION['user'] = $result->fetch_assoc();
 				unset($_SESSION['user_email_login2']);
-
 				if (isset($_SESSION['add_to_cart_session_id']) && $_SESSION['add_to_cart_session_id'] != '' ){
 				// 	header('Location: cart');
 				// }else{
-					header('Location: digital-dashboard');
+					
 				}
+				header('Location: digital-dashboard');
 				exit();
 			}else{
 				$_SESSION['message'] = $content[51];

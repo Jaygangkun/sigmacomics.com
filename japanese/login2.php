@@ -59,8 +59,9 @@ if(isset($_REQUEST['login_next'])){
 				if (isset($_SESSION['add_to_cart_session_id']) && $_SESSION['add_to_cart_session_id'] != '' ){
 				// 	header( 'Location:'.constant('SITEURL_JAPANESE').'/cart');
 				// }else{
-					header( 'Location:'.constant('SITEURL_JAPANESE').'/digital-dashboard-5');
+					
 				}
+				header( 'Location:'.constant('SITEURL_JAPANESE').'/digital-dashboard-5');
 				exit();
 			}else{
 				$_SESSION['message'] = $content[51];
