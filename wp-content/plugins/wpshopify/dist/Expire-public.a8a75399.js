@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshopwp=self.webpackChunkshopwp||[]).push([["Expire-public"],{XT0j:function(e,t,n){n.r(t);var u=n("XUG9");t.default=function(e){var t=e.delay,n=e.children,c=wp.element,l=c.useState,a=c.useEffect,p=l(!0),r=(0,u.Z)(p,2),s=r[0],f=r[1];return a((function(){setTimeout((function(){f(!1)}),t)}),[t]),s?React.createElement(React.Fragment,null,n):null}}}]);
